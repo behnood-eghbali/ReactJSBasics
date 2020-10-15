@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-form": "^4.0.1"
+    "react-form": "^4.0.1",
+    "reactn": "^2.2.7"
   },
   "scripts": {
     "start": "react-scripts start",

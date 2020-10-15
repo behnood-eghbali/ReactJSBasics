@@ -1,14 +1,22 @@
-import React from 'react';
+import React from 'react'
+import Header from './Header/Header'
+import ProfileHeader from './ProfileHeader/ProfileHeader'
+import DataCard from './DataCard/DataCard'
+import MainContent from './MainContent/MainContent'
+import Resume from './Resume/Resume'
+import ResumeContextProvider from './Contexts/ResumeContext'
 
-function App() {
 
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React App</h1>
-      </header>
+    <div>
+      <Header />
+      <ProfileHeader />
+      <ResumeContextProvider>
+        <DataCard />
+      </ResumeContextProvider>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
