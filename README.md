@@ -1,4 +1,6 @@
-#  Resume Builder App: forked from https://github.com/Swap76/ReactJSBasics
+#  Resume Builder App: 
+
+## forked from https://github.com/Swap76/ReactJSBasics
 
 ## branch: https://github.com/behnood-eghbali/ReactJSBasics-1/tree/new
 
